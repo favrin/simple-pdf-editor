@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleName</key><string>Simple PDF Editor</string>
+    <key>CFBundleDisplayName</key><string>Simple PDF Editor</string>
+    <key>CFBundleIdentifier</key><string>ch.favrin.simplepdfeditor</string>
+    <key>CFBundleExecutable</key><string>SimplePDFEditor</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.2</string>
+    <key>CFBundleVersion</key><string>3</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSHumanReadableCopyright</key><string>Made for Giorgio Favrin, 2026.</string>
+    <key>CFBundleDocumentTypes</key><array><dict>
+        <key>CFBundleTypeName</key><string>PDF document</string>
+        <key>CFBundleTypeRole</key><string>Editor</string>
+        <key>LSHandlerRank</key><string>Alternate</string>
+        <key>LSItemContentTypes</key><array><string>com.adobe.pdf</string></array>
+        <key>CFBundleTypeExtensions</key><array><string>pdf</string></array>
+        <key>NSDocumentClass</key><string>PDFEditorDocument</string>
+    </dict></array>
+</dict></plist>

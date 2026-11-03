@@ -1,0 +1,10 @@
+.build/
+tmp/
+output/
+*.app/
+.DS_Store
+*.pdf
+.env
+.env.*
+*.p12
+*.pfx
